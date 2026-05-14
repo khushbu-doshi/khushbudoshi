@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #fafafa;
+  --color-foreground: #343232;
+  --color-muted: #828282;
+  --color-border: #dddddd;
+  --color-brand: #6277f6;
+  --color-hero-blue: #006fcf;
+  --color-hero-coral: #db5a5a;
+}
+
+/* On mobile, strip the desktop zoom transform from project card videos so they don't crop */
+@media (max-width: 767px) {
+  .project-card-video {
+    transform: none !important;
+  }
+}
+
+@layer base {
+  html {
+    background-color: #fafafa;
+    color: #343232;
+  }
+
+  body {
+    font-family: var(--font-geist-sans), sans-serif;
+    background-color: #fafafa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
