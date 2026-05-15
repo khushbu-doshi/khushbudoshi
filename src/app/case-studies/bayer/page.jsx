@@ -81,7 +81,7 @@ export default function BayerCaseStudy() {
 
           {/* Hero */}
           <VideoBox
-            src="/videos/bayer/bayer-hero.mp4"
+            src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778800214/bayer-hero_q2d51s.mp4"
             className="mb-16"
             padding="p-0"
           />
@@ -186,7 +186,7 @@ export default function BayerCaseStudy() {
                 b. Tracing customer journey
               </h2>
               <ImageBox
-                src="/videos/bayer/customer-journey.png"
+                src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787440/customer-journey_ldgcdq.png"
                 alt="Customer journey flow"
               />
             </div>
@@ -197,7 +197,7 @@ export default function BayerCaseStudy() {
                 c. Auditing email and website content + UX
               </h2>
               <ImageBox
-                src="/videos/bayer/ux-audit.png"
+                src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787444/ux-audit_ttjghq.png"
                 alt="Email flow strategy"
                 className="mb-5"
               />
@@ -216,7 +216,7 @@ export default function BayerCaseStudy() {
                 accordingly.
               </p>
               <ImageBox
-                src="/videos/bayer/customerBehaviour.jpg"
+                src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787608/customerBehaviour_nvi2fc.jpg"
                 alt="Customer behaviour segments"
               />
             </div>
@@ -238,7 +238,7 @@ export default function BayerCaseStudy() {
                   Aim: Create brand trust, meaningful engagement and encourage demo bookings
                 </h2>
                 <ImageBox
-                  src="/videos/bayer/EmailFlowStrategyCalantic.jpg"
+                  src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787609/EmailFlowStrategyCalantic_wojei2.jpg"
                   alt="General email flow strategy"
                 />
               </div>
@@ -249,7 +249,7 @@ export default function BayerCaseStudy() {
                   Aim: Letting customers show us their interests and reacting accordingly for sustained, meaningful engagement
                 </h2>
                 <ImageBox
-                  src="/videos/bayer/BehaviouralEmailFlowCalantic.jpg"
+                  src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787607/BehaviouralEmailFlowCalantic_n540to.jpg"
                   alt="Behavioural email flow"
                 />
               </div>
@@ -266,7 +266,7 @@ export default function BayerCaseStudy() {
                   Email designs
                 </h2>
                 <ImageBox
-                  src="/videos/bayer/emailFlowBayer.png"
+                  src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787442/emailFlowBayer_qawdtr.png"
                   alt="Email designs"
                 />
               </div>
@@ -276,7 +276,7 @@ export default function BayerCaseStudy() {
                   Web page redesigns
                 </h2>
                 <ImageBox
-                  src="/videos/bayer/websiteRedesigns.png"
+                  src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787445/websiteRedesigns_tjsdmw.png"
                   alt="Website redesigns"
                 />
               </div>

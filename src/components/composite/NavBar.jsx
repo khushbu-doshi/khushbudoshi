@@ -61,7 +61,6 @@ export default function NavBar() {
 
             <Link href="/about"  className="font-body text-[14px] text-muted hover:text-foreground transition-colors">ABOUT</Link>
             <a href="/documents/Resume-Doshi-Khushbu.pdf" target="_blank" rel="noopener noreferrer" className="font-body text-[14px] text-muted hover:text-foreground transition-colors">RESUME</a>
-            <Link href="/ai"     className="font-body text-[14px] text-muted hover:text-foreground transition-colors">KHUSHBU'S AI</Link>
           </nav>
 
           {/* Hamburger — mobile only, animates to × when open */}
@@ -99,8 +98,7 @@ export default function NavBar() {
               {[
                 { label: 'About',        href: '/about'  },
                 { label: 'Resume',       href: '/documents/Resume-Doshi-Khushbu.pdf', external: true },
-                { label: "Khushbu's AI", href: '/ai'     },
-              ].map(({ label, href, external }) => external ? (
+                      ].map(({ label, href, external }) => external ? (
                 <a key={href} href={href} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}
                   className="font-body text-[16px] text-foreground hover:text-brand transition-colors py-2.5">
                   {label}

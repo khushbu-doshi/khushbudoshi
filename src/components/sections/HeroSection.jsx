@@ -29,21 +29,21 @@ function applyGradient(el, stopRgbs, posPercent) {
   const stops = stopRgbs
     .map((c, i) => `rgb(${c[0]},${c[1]},${c[2]}) ${STOP_PCTS[i]}%`)
     .join(', ')
-  el.style.backgroundImage  = `linear-gradient(90deg, ${stops})`
-  el.style.backgroundSize   = '300% auto'
-  el.style.backgroundPosition = `${posPercent}% 0`
+  el.style.backgroundImage     = `linear-gradient(90deg, ${stops})`
+  el.style.backgroundSize      = '300% auto'
+  el.style.backgroundPosition  = `${posPercent}% 0`
   el.style.webkitBackgroundClip = 'text'
-  el.style.backgroundClip   = 'text'
-  el.style.color            = 'transparent'
+  el.style.backgroundClip      = 'text'
+  el.style.color               = 'transparent'
 }
 
 function clearGradient(el) {
-  el.style.backgroundImage  = ''
-  el.style.backgroundSize   = ''
-  el.style.backgroundPosition = ''
+  el.style.backgroundImage      = ''
+  el.style.backgroundSize       = ''
+  el.style.backgroundPosition   = ''
   el.style.webkitBackgroundClip = ''
-  el.style.backgroundClip   = ''
-  el.style.color            = ''
+  el.style.backgroundClip       = ''
+  el.style.color                = ''
 }
 
 /**
@@ -104,7 +104,7 @@ function GradientWord({ children, defaultHex, className = '' }) {
   return (
     <span
       ref={elRef}
-      className={`cursor-default ${className}`}
+      className={`cursor-default inline-block px-[2px] mx-[-2px] ${className}`}
       onMouseEnter={trigger}
       onTouchStart={onTouch}
     >

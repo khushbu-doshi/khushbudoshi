@@ -89,7 +89,7 @@ export default function FortunaInsightsCaseStudy() {
 
           {/* Hero — no background, video fills full width */}
           <VideoBox
-            src="/videos/fortuna-insights/fortuna-insights.mp4"
+            src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778789896/fortuna-insights_ppinwf.mp4"
             className="mb-16"
             padding="p-0"
           />
@@ -143,7 +143,7 @@ export default function FortunaInsightsCaseStudy() {
 
             {/* No background container */}
             <BareImage
-              src="/videos/fortuna-insights/fortuna-insights-litigation-finance.png"
+              src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789891/fortuna-insights-litigation-finance_g9mvmu.png"
               alt="Litigation finance industry overview"
               className="mb-12"
             />
@@ -194,7 +194,7 @@ export default function FortunaInsightsCaseStudy() {
             </p>
             {/* No background container */}
             <BareImage
-              src="/videos/fortuna-insights/userResearch.jpg"
+              src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789895/userResearch_egqlay.jpg"
               alt="User journey chart"
             />
           </section>
@@ -233,7 +233,7 @@ export default function FortunaInsightsCaseStudy() {
             </p>
             {/* No background container */}
             <BareImage
-              src="/videos/fortuna-insights/userFlow.png"
+              src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789893/userFlow_ddyyeu.png"
               alt="User flow diagram"
             />
           </section>
@@ -253,7 +253,7 @@ export default function FortunaInsightsCaseStudy() {
                   View ongoing cases, assign cases to people, view case updates, and directly go to the
                   case files.
                 </p>
-                <VideoBox src="/videos/fortuna-insights/caseCollaboration.mp4" />
+                <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778789884/caseCollaboration_lbhez6.mov" />
               </div>
 
               {/* Apply for funding — keep background */}
@@ -267,7 +267,7 @@ export default function FortunaInsightsCaseStudy() {
                   different litigation finance firms specialize in.
                 </p>
                 <ImageBox
-                  src="/videos/fortuna-insights/ApplyForFunding.jpg"
+                  src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789887/ApplyForFunding_ddxebw.jpg"
                   alt="Apply for funding screen"
                 />
               </div>
@@ -281,7 +281,7 @@ export default function FortunaInsightsCaseStudy() {
                   Summarizing cases so it's easy for litigation finance companies to view important case
                   points while reviewing, saving time for both parties.
                 </p>
-                <VideoBox src="/videos/fortuna-insights/ai-chatbot.mp4" />
+                <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778789885/ai-chatbot_yfpouv.mov" />
               </div>
 
             </div>

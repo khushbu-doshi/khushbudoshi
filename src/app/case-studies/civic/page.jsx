@@ -123,7 +123,7 @@ export default function CivicCaseStudy() {
           </div>
 
           {/* Hero video */}
-          <VideoBox src="/videos/civic/civic-case-study-hero-video.mp4" className="mb-16" padding="px-[10%] py-[40px]" />
+          <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787121/civic-case-study-hero-video_i3ojqn.mp4" className="mb-16" padding="px-[10%] py-[40px]" />
 
           {/* ── OVERVIEW ── */}
           <section id="overview" className="mb-[117px] scroll-mt-[80px]">
@@ -195,7 +195,7 @@ export default function CivicCaseStudy() {
 
             {/* Drafting flow image — cropped to fill box */}
             <div className="mb-[70px] py-[15px]">
-              <ImageBox src="/videos/civic/civic-drafting-process.png" alt="Civic drafting flow process" bg="#E8E8E8" />
+              <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787120/civic-drafting-process_s7hevc.png" alt="Civic drafting flow process" bg="#E8E8E8" />
             </div>
 
             {/* HMW */}
@@ -205,7 +205,7 @@ export default function CivicCaseStudy() {
             <p className="font-body text-body text-foreground/60 mb-8 leading-relaxed">
               We identified which problems were most urgent and worth solving first. This allowed us to prioritize features that clearly demonstrated {"Civic's"} value, validate demand, and drive adoption.
             </p>
-            <ImageBox src="/videos/civic/civic-research.png" alt="Civic research notes" className="mb-[84px]" bg="#E8E8E8" />
+            <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787120/civic-research_vnatvd.png" alt="Civic research notes" className="mb-[84px]" bg="#E8E8E8" />
 
             {/* AI Prototyping */}
             <h2 className="font-body font-medium text-h2 text-foreground mb-4">
@@ -214,13 +214,13 @@ export default function CivicCaseStudy() {
             <p className="font-body text-body text-foreground/60 mb-8 leading-relaxed">
               AI prototyping allowed us to move fast, test assumptions early, and focus design and engineering effort only on workflows that showed clear value to potential customers.
             </p>
-            <ImageBox src="/videos/civic/civic-figma-make.png" alt="Civic AI prototyping in Figma Make" className="mb-[84px]" bg="#E8E8E8" />
+            <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787121/civic-figma-make_uefrgc.png" alt="Civic AI prototyping in Figma Make" className="mb-[84px]" bg="#E8E8E8" />
 
             {/* Design System */}
             <h2 className="font-body font-medium text-h2 text-foreground mb-8">
               Finalizing features and creating a base design system
             </h2>
-            <ImageBox src="/videos/civic/civic-design-system.png" alt="Civic design system" bg="#E8E8E8" />
+            <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787121/civic-design-system_xdhngq.png" alt="Civic design system" bg="#E8E8E8" />
           </section>
 
           {/* ── SOLUTION ── */}
@@ -238,12 +238,12 @@ export default function CivicCaseStudy() {
                   <div className="flex flex-col gap-5">
                     <IterationCard type="exploration" label="Exploration" title="Chatbot that provides all context needed to draft without context-switching"
                       body="In a keyboard-heavy drafting flow, a chatbot caused a break in flow and increased cognitive load due to visual disturbance.">
-                      <ImageBox src="/videos/civic/civic-batches-AI-chatbot.jpg" alt="Side panel chatbot" small className="my-3" />
+                      <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778794570/civic-batches-AI-chatbot_odtxij.jpg" alt="Side panel chatbot" small className="my-3" />
                     </IterationCard>
                     <IterationCard type="solution" label="Solution"
                       title="Conversational AI embedded directly inside the email drafting window"
                       body="Triggered by keyboard commands, keeping the drafter in flow.">
-                      <VideoBox src="/videos/civic/civic-case-study-hero-video.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787121/civic-case-study-hero-video_i3ojqn.mp4" small className="my-3" />
                     </IterationCard>
                   </div>
                 </div>
@@ -254,11 +254,11 @@ export default function CivicCaseStudy() {
                   <div className="flex flex-col gap-5">
                     <IterationCard type="exploration" label="Exploration" title="Surfacing relevant bills/news inside the chat"
                       body="Users had to constantly open and close the bills/news while writing.">
-                      <VideoBox src="/videos/civic/civic-bills-i1.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787120/civic-bills-i1_g0jeyf.mp4" small className="my-3" />
                     </IterationCard>
                     <IterationCard type="solution" label="Solution" title="Surfacing relevant bills on the side of the drafter"
                       body="Always visible, no toggling required.">
-                      <VideoBox src="/videos/civic/civic-bills-i2.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787122/civic-bills-i2_rqbq3j.mp4" small className="my-3" />
                     </IterationCard>
                   </div>
                 </div>
@@ -269,11 +269,11 @@ export default function CivicCaseStudy() {
                   <div className="flex flex-col gap-5">
                     <IterationCard type="exploration" label="Exploration" title="Flagging claims or promissory language in a draft"
                       body="Put the pressure on the user to remember a step, which is easy to forget when responding to 50 emails per day, each with 3 steps.">
-                      <VideoBox src="/videos/civic/civic-acc-check-i1.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787120/civic-acc-check-i1_glgogb.mp4" small className="my-3" />
                     </IterationCard>
                     <IterationCard type="solution" label="Solution" title="Automatically flagging claims and promissory language in colour as user types"
                       body="No extra step — accountability is built into the writing experience.">
-                      <VideoBox src="/videos/civic/civic-acc-check-i2.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787120/civic-acc-check-i2_dgekv1.mp4" small className="my-3" />
                     </IterationCard>
                   </div>
                 </div>
@@ -285,7 +285,7 @@ export default function CivicCaseStudy() {
                     <IterationCard type="exploration" label="Exploration"
                       title="Surfacing an office representative's stance on a particular issue"
                       body="Technically difficult to implement — a rep's voting history can be reliably pulled through an API but their stance is subject to interpretation.">
-                      <VideoBox src="/videos/civic/civic-office-rep-stance.mp4" small className="my-3" />
+                      <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787122/civic-office-rep-stance_htqylg.mp4" small className="my-3" />
                     </IterationCard>
                     <IterationCard type="solution" label="Solution"
                       title="Surfacing bills and news with representative mentions"
@@ -298,14 +298,14 @@ export default function CivicCaseStudy() {
                 <p className="font-body text-body text-foreground/60 leading-relaxed mb-5">
                   Researching writing-heavy tools showed that targeted edits — rewriting a specific sentence without touching the rest — was a common and valued pattern. We brought that in so LCs could prompt AI on exactly the passage they wanted changed, not the whole draft.
                 </p>
-                <VideoBox src="/videos/civic/civic-text-selection-ai.mp4" />
+                <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787122/civic-text-selection-ai_eoo2uk.mp4" />
               </div>
               <div>
                 <p className="font-mono text-label text-muted mb-4">KEYBOARD COMMANDS FOR TEMPLATES & COLLABORATION</p>
                 <p className="font-body text-body text-foreground/60 leading-relaxed mb-5">
                   {"LCs might use previously approved templates to avoid repetitive work. The user can press 'Cmd+K' to view approved templates related to the topic and press '@' to send a draft for approval or ask for edits — no break in flow."}
                 </p>
-                <VideoBox src="/videos/civic/civic-keyboard-commands.mp4" />
+                <VideoBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778787121/civic-keyboard-commands_vtfqok.mp4" />
               </div>
 
               </div>
@@ -317,7 +317,7 @@ export default function CivicCaseStudy() {
               <p className="font-body text-body text-foreground/60 mb-6 leading-relaxed">
                 A single-screen triage dashboard that gives legislative staff a real-time pulse on incoming communications, district sentiment, geographic impact, and legislative context — enabling faster, more informed prioritization.
               </p>
-              <ImageBox src="/videos/civic/dashboard-final-updated.jpg" alt="Civic dashboard" className="mb-8" />
+              <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778794782/dashboard-final-updated_cdkqis.jpg" alt="Civic dashboard" className="mb-8" />
               <ul className="space-y-3">
                 {[
                   'Top metrics & sentiment surface workload status and emerging issues first, reflecting how staff assess urgency before engaging with content.',
@@ -338,7 +338,7 @@ export default function CivicCaseStudy() {
               <p className="font-body text-body text-foreground/60 mb-6 leading-relaxed">
                 In a typical office, legislative staff might assign emails to other employees based on topic and urgency. The batch view has been designed to quickly scan the batch topic, priority level and summary so that assigning becomes easier.
               </p>
-              <ImageBox src="/videos/civic/civic-batch-view.jpg" alt="Civic batch view" />
+              <ImageBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778787120/civic-batch-view_qczjzx.jpg" alt="Civic batch view" />
             </div>
 
           </section>
