@@ -1,7 +1,16 @@
 import Image from 'next/image'
 import NavBar from '@/components/composite/NavBar'
 import FooterSection from '@/components/sections/FooterSection'
-import CivicSidebar from '@/components/composite/CivicSidebar'
+import CaseStudySidebar from '@/components/composite/CaseStudySidebar'
+
+const SECTIONS = [
+  { id: 'overview',       label: 'Overview'       },
+  { id: 'problem-space',  label: 'Problem Space'  },
+  { id: 'design-process', label: 'Design Process' },
+  { id: 'solution',       label: 'Solution'       },
+  { id: 'impact',         label: 'Impact'         },
+  { id: 'learnings',      label: 'Learnings'      },
+]
 
 export const metadata = {
   title: 'Civic — Khushbu Doshi',
@@ -109,7 +118,7 @@ export default function CivicCaseStudy() {
     <div className="bg-background min-h-screen">
       <NavBar />
 
-      <CivicSidebar />
+      <CaseStudySidebar sections={SECTIONS} />
 
       <div className="pt-[80px]">
         <main className="max-w-[864px] mx-auto px-6 py-16">

@@ -213,12 +213,11 @@ export default function HeroSection() {
               {' '}
               <GradientWord defaultHex={FG}>who</GradientWord>
               {' '}
-              <GradientWord defaultHex="#db5a5a" className="text-hero-coral">markets</GradientWord>
-              .
+              <GradientWord defaultHex="#db5a5a" className="text-hero-coral">markets.</GradientWord>
             </h1>
 
             <p className="font-body text-body text-foreground/55 leading-[1.44] w-full">
-              {"I'm a marketer turned designer, now building with AI. I strategized campaigns for a lifestyle brand, then transitioned into UX. Over the past 3 years I've worked with startups at the intersection of product design and marketing, designing products from 0 to 1."}
+              {"I'm a marketer turned designer. I strategized campaigns for a lifestyle brand, then transitioned into UX. Over the past 3 years I've worked with startups at the intersection of product design and marketing, building from 0 to 1."}
             </p>
           </div>
 

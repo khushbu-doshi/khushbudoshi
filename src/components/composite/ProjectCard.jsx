@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useRef, useCallback } from 'react'
 
 export default function ProjectCard({
   emoji,
@@ -11,8 +14,34 @@ export default function ProjectCard({
   videoHeight = 260,
   videoZoom = 1,
 }) {
+  const videoRef = useRef(null)
+  const liRef    = useRef(null)
+
+  const onEnter = useCallback(() => {
+    videoRef.current?.play()
+    if (liRef.current) {
+      liRef.current.style.transform = 'scale(1.025)'
+      liRef.current.style.zIndex   = '10'
+    }
+  }, [])
+
+  const onLeave = useCallback(() => {
+    const v = videoRef.current
+    if (v) { v.pause(); v.currentTime = 0 }
+    if (liRef.current) {
+      liRef.current.style.transform = 'scale(1)'
+      liRef.current.style.zIndex   = ''
+    }
+  }, [])
+
   return (
-    <li className="relative bg-background rounded-card shadow-card flex flex-col w-full group cursor-pointer overflow-hidden">
+    <li
+      ref={liRef}
+      className="relative bg-background rounded-card shadow-card flex flex-col w-full cursor-pointer overflow-hidden"
+      style={{ transition: 'transform 320ms cubic-bezier(0.34,1.56,0.64,1), box-shadow 320ms ease' }}
+      onMouseEnter={onEnter}
+      onMouseLeave={onLeave}
+    >
       {href && <Link href={href} className="absolute inset-0 z-10" aria-label={title} />}
 
       {/* Media — top */}
@@ -22,8 +51,8 @@ export default function ProjectCard({
       >
         {video ? (
           <video
+            ref={videoRef}
             src={video}
-            autoPlay
             muted
             loop
             playsInline
