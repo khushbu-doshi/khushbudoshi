@@ -200,22 +200,22 @@ export default function StudentHousingCaseStudy() {
             <div className="grid grid-cols-2 gap-5 mb-10">
               {[
                 {
-                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790005/Suggested_listings_nfbjdv.png',
+                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790005/Suggested_listings_nfbjdv.png',
                   alt: 'Map with safety and pricing pins',
                   caption: 'Location icons indicating safety and pricing',
                 },
                 {
-                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789997/Listing_page_pjwqwp.png',
+                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789997/Listing_page_pjwqwp.png',
                   alt: 'Listing page with centralized info',
                   caption: 'All housing info — reviews, distance, docs — on one page',
                 },
                 {
-                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789986/Filters_hynx2c.png',
+                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789986/Filters_hynx2c.png',
                   alt: 'Distance filter from university',
                   caption: 'Filtering listings based on distance from university',
                 },
                 {
-                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778854009/Groups_xwbb2y.png',
+                  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778854009/Groups_xwbb2y.png',
                   alt: 'Community groups and chats',
                   caption: 'Creating/joining groups to connect with fellow students',
                 },
@@ -287,7 +287,7 @@ export default function StudentHousingCaseStudy() {
           <section id="findings" className="mb-[117px] scroll-mt-[80px]">
             <p className="font-mono text-label text-muted mb-6">FINDINGS</p>
             <ImageBox
-              src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790001/studentHousingFindings_d7sxki.png"
+              src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790001/studentHousingFindings_d7sxki.png"
               alt="Research findings"
               className="mb-12"
             />
@@ -295,8 +295,8 @@ export default function StudentHousingCaseStudy() {
               Outlining personas from the findings
             </h2>
             <div className="grid grid-cols-2 gap-5">
-              <Image src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790003/studentHousingPersona1_aiypxq.png" alt="Persona 1" width={600} height={800} className="w-full h-auto rounded-[10px]" />
-              <Image src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790004/studentHousingPersona2_xuejqx.png" alt="Persona 2" width={600} height={800} className="w-full h-auto rounded-[10px]" />
+              <Image src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790003/studentHousingPersona1_aiypxq.png" alt="Persona 1" width={600} height={800} className="w-full h-auto rounded-[10px]" />
+              <Image src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790004/studentHousingPersona2_xuejqx.png" alt="Persona 2" width={600} height={800} className="w-full h-auto rounded-[10px]" />
             </div>
           </section>
 
@@ -310,7 +310,7 @@ export default function StudentHousingCaseStudy() {
                   1. Auto-calculating distance between university and listing address
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789981/Iteration1.1_wblqib.png', alt: 'Distance iteration 1.1' }
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789981/Iteration1.1_wblqib.png', alt: 'Distance iteration 1.1' }
                 ]} />
               </div>
 
@@ -319,7 +319,7 @@ export default function StudentHousingCaseStudy() {
                   2. Indicating safety
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789987/iteration1.2_hshw1p.png', alt: 'Distance iteration 1.2' },                               
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789987/iteration1.2_hshw1p.png', alt: 'Distance iteration 1.2' },                               
                 ]} />
               </div>
 
@@ -328,7 +328,7 @@ export default function StudentHousingCaseStudy() {
                   3. All housing related info centralized on one page
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789988/Iteration1.3_nbdrmh.png', alt: 'Safety iteration 1.3' },              
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789988/Iteration1.3_nbdrmh.png', alt: 'Safety iteration 1.3' },              
                 ]} />
               </div>
 
@@ -337,7 +337,7 @@ export default function StudentHousingCaseStudy() {
                   4. Saving and comparing listings
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789990/iteration1.4_vmo2g4.png', alt: 'Safety iteration 1.4' },
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789990/iteration1.4_vmo2g4.png', alt: 'Safety iteration 1.4' },
                 ]} />
               </div>
             </div>
@@ -394,7 +394,7 @@ export default function StudentHousingCaseStudy() {
                   1. Discoverability
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789991/iteration2.1_pnqvhi.png', alt: 'Discoverability iteration 2.1' },
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789991/iteration2.1_pnqvhi.png', alt: 'Discoverability iteration 2.1' },
                 ]} />
               </div>
 
@@ -403,7 +403,7 @@ export default function StudentHousingCaseStudy() {
                   2. Flexibility to edit/save details
                 </h2>
                 <MobileGrid images={[
-                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789993/iteration2.2_oijuoj.png', alt: 'Discoverability iteration 2.2' },
+                  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789993/iteration2.2_oijuoj.png', alt: 'Discoverability iteration 2.2' },
                 ]} />
               </div>
 
@@ -418,7 +418,7 @@ export default function StudentHousingCaseStudy() {
                     How could we facilitate community, sharing and bring new users to the app?
                   </h3>
                   <MobileGrid images={[
-                    { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789994/Iteration2.3_xlmvjq.png', alt: 'Community iteration 2.3' },
+                    { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789994/Iteration2.3_xlmvjq.png', alt: 'Community iteration 2.3' },
                   ]} />
                 </div>
 
@@ -428,7 +428,7 @@ export default function StudentHousingCaseStudy() {
                     Putting comments on listings making comparison easier
                   </h3>
                   <ImageBox
-                    src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789995/iteration2.4_w2lbay.png"
+                    src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789995/iteration2.4_w2lbay.png"
                     alt="Browsing listings with comments"
                   />
                 </div>
@@ -442,10 +442,10 @@ export default function StudentHousingCaseStudy() {
 
             <div className="flex flex-col gap-[60px]">
               {[
-                { label: '1. Log In / Sign Up',   src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778867416/signup_kfewua.png',           alt: 'Sign up screen' },
-                { label: '2. Browsing Listings',  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789983/browsingListings_rgxvgj.png', alt: 'Browsing listings screen' },
-                { label: '3. Wishlist',            src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790008/wishlist_ixbr9g.png',         alt: 'Wishlist screen' },
-                { label: '4. Chats',               src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778789984/chats_qpw3dh.png',            alt: 'Chats screen' },
+                { label: '1. Log In / Sign Up',   src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778867416/signup_kfewua.png',           alt: 'Sign up screen' },
+                { label: '2. Browsing Listings',  src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789983/browsingListings_rgxvgj.png', alt: 'Browsing listings screen' },
+                { label: '3. Wishlist',            src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790008/wishlist_ixbr9g.png',         alt: 'Wishlist screen' },
+                { label: '4. Chats',               src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778789984/chats_qpw3dh.png',            alt: 'Chats screen' },
               ].map(({ label, src, alt }) => (
                 <div key={label}>
                   <p className="font-mono text-label text-muted mb-5">{label}</p>

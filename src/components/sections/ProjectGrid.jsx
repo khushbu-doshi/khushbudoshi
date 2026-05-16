@@ -11,7 +11,7 @@ const productDesignProjects = [
       'As the second product design hire, I designed workflows for government offices to reply to constituent communications efficiently.',
     href: '/case-studies/civic',
     imageBg: '#eef1fe',
-    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790560/civic-case-study-video_k0pnxx.mp4',
+    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790560/civic-case-study-video_k0pnxx.mp4',
     videoHeight: 338,
     videoZoom: 1.35,
   },
@@ -22,7 +22,7 @@ const productDesignProjects = [
       'Designed a student rental platform focused on trust, safety, and location-driven decision making.',
     href: '/case-studies/student-housing',
     imageBg: '#e3eeff',
-    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790563/student-housing-portfolio_otsf2e.mp4',
+    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790563/student-housing-portfolio_otsf2e.mp4',
   },
   {
     emoji: '⚖️',
@@ -31,7 +31,7 @@ const productDesignProjects = [
       'Synthesized user insights to design workflows for case documentation, collaboration, and AI-assisted analysis.',
     href: '/case-studies/fortuna-insights',
     imageBg: '#f0edff',
-    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790561/fortuna-insights_zqotnt.mp4',
+    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790561/fortuna-insights_zqotnt.mp4',
   },
 ]
 
@@ -43,7 +43,7 @@ const marketingProjects = [
       'Achieved a 12% increase in demo submissions and 6% lift in email open rates through targeted campaign redesign.',
     href: '/case-studies/bayer',
     imageBg: '#f0fdf4',
-    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790560/bayer-hero_uk3vwx.mp4',
+    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790560/bayer-hero_uk3vwx.mp4',
   },
   {
     emoji: '🎯',
@@ -52,7 +52,7 @@ const marketingProjects = [
       'Drove a 16% increase in sales and 40% social media engagement lift through cohesive brand storytelling and email campaigns.',
     href: '/case-studies/darzah',
     imageBg: '#fff3ed',
-    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790557/DARZAH-HERO-VIDEO_zgxnnq.mp4',
+    video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790557/DARZAH-HERO-VIDEO_zgxnnq.mp4',
   },
 ]
 

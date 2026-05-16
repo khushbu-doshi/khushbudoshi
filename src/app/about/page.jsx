@@ -81,13 +81,13 @@ function Chapter({ id, heading, body, media, tags }) {
 // ── Data ─────────────────────────────────────────────────────────────────
 
 const photos = [
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790829/acted-in-a-short-movie_g7ot3g.jpg',                 caption: 'Acted in a short film' },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790817/decorating-house-walls-with-lippan-art_ptj9lz.jpg', caption: 'Lippan art, Gujarat'   },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790815/experiments-with-pottery_osignx.jpg',               caption: 'Pottery experiments'   },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790820/learning-surfing_dzlehu.jpg',                       caption: 'Learning to surf'      },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790822/making-a-ring_is3fte.jpg',                          caption: 'Making a ring'         },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790824/soap-business_r4h7ju.jpg',                          caption: 'Soap business'         },
-  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790827/taking-people-on-hikes_wvssy9.png',                 caption: 'Leading hikes'         },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790829/acted-in-a-short-movie_g7ot3g.jpg',                 caption: 'Acted in a short film' },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790817/decorating-house-walls-with-lippan-art_ptj9lz.jpg', caption: 'Lippan art, Gujarat'   },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790815/experiments-with-pottery_osignx.jpg',               caption: 'Pottery experiments'   },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790820/learning-surfing_dzlehu.jpg',                       caption: 'Learning to surf'      },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790822/making-a-ring_is3fte.jpg',                          caption: 'Making a ring'         },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790824/soap-business_r4h7ju.jpg',                          caption: 'Soap business'         },
+  { src: 'https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790827/taking-people-on-hikes_wvssy9.png',                 caption: 'Leading hikes'         },
 ]
 
 const jobs = [
@@ -159,10 +159,10 @@ export default function AboutPage() {
               body="After my BBA, I took a year off. Traveled through the Himalayas, got certified to teach yoga, learned Lippan art in Gujarat, hitchhiked from Germany to Bulgaria with $300 in my pocket."
               media={
                 <div className="flex flex-col gap-3">
-                  <Vid src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790931/lippan_ln1hcr.mp4" />
+                  <Vid src="https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790931/lippan_ln1hcr.mp4" />
                   <div className="grid grid-cols-2 gap-3">
-                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778790934/himalayas_tpioyh.mov" isVideo className="h-[320px]" />
-                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778790935/IMG_4877_xqbxfi.jpg" alt="Himalayas" className="h-[320px]" />
+                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790934/himalayas_tpioyh.mov" isVideo className="h-[320px]" />
+                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778790935/IMG_4877_xqbxfi.jpg" alt="Himalayas" className="h-[320px]" />
                   </div>
                 </div>
               }
@@ -177,10 +177,10 @@ export default function AboutPage() {
                 <div className="w-[70%] mx-auto">
                   <div className="grid grid-cols-2 gap-3">
                     <div className="flex flex-col gap-3">
-                      <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778825669/1_copy_1_vksgm3.jpg" alt="Darzah product" className="aspect-square" />
-                      <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778825670/487480821_4106954609587830_380815673614204718_n_jaanvw.jpg" alt="Darzah" className="aspect-square" />
+                      <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778825669/1_copy_1_vksgm3.jpg" alt="Darzah product" className="aspect-square" />
+                      <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778825670/487480821_4106954609587830_380815673614204718_n_jaanvw.jpg" alt="Darzah" className="aspect-square" />
                     </div>
-                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/v1778825567/Sketch-Product_reel_gfeadf.mp4" isVideo className="h-full" />
+                    <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778825567/Sketch-Product_reel_gfeadf.mp4" isVideo className="h-full" />
                   </div>
                 </div>
               }
@@ -193,8 +193,8 @@ export default function AboutPage() {
               body="The redesign of the e-commerce showed me how UX could drive positive business outcomes, wanted to learn more about UX and enrolled in the MS HCI program at DePaul and spent the next two years studying interaction design while working at startups — Fortuna Insights, Bayer, and Civic. Designing products from 0 to 1."
               media={
                 <div className="grid grid-cols-2 gap-3">
-                  <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778825706/hackathon_qwgyfs.jpg" alt="Graduation" className="h-[420px]" />
-                  <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/v1778825705/graduation_en2rda.jpg" alt="Hackathon" className="h-[420px]" />
+                  <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778825706/hackathon_qwgyfs.jpg" alt="Graduation" className="h-[420px]" />
+                  <CoverBox src="https://res.cloudinary.com/dnv5rxyhk/image/upload/q_auto,f_auto/v1778825705/graduation_en2rda.jpg" alt="Hackathon" className="h-[420px]" />
                 </div>
               }
               tags={['UX', 'Himalayas', 'DePaul HCI']}
