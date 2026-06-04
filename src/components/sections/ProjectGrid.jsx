@@ -67,7 +67,7 @@ export default function ProjectGrid() {
         <div className="flex items-center gap-[15px] mb-[70px]">
           <button
             onClick={() => setActiveTab('design')}
-            className={`h-[45px] w-[190px] rounded-pill px-[14px] py-[9px] font-body font-normal text-[20px] leading-[20px] tracking-[-0.15px] transition-colors ${
+            className={`h-[38px] md:h-[45px] w-auto rounded-pill px-4 py-[9px] font-body font-normal text-[15px] md:text-[20px] leading-tight tracking-[-0.15px] transition-colors ${
               activeTab === 'design' ? 'bg-foreground text-background' : 'text-muted'
             }`}
           >
@@ -75,7 +75,7 @@ export default function ProjectGrid() {
           </button>
           <button
             onClick={() => setActiveTab('marketing')}
-            className={`h-[45px] w-[190px] rounded-pill px-[14px] py-[9px] font-body font-normal text-[20px] leading-[20px] tracking-[-0.15px] transition-colors ${
+            className={`h-[38px] md:h-[45px] w-auto rounded-pill px-4 py-[9px] font-body font-normal text-[15px] md:text-[20px] leading-tight tracking-[-0.15px] transition-colors ${
               activeTab === 'marketing' ? 'bg-foreground text-background' : 'text-muted'
             }`}
           >
