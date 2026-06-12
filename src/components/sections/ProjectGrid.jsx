@@ -50,7 +50,7 @@ const marketingProjects = [
     title: 'Darzah: Brand & Marketing Strategy',
     description:
       'Drove a 16% increase in sales and 40% social media engagement lift through cohesive brand storytelling and email campaigns.',
-    href: '/case-studies/darzah',
+    href: 'https://khushbudportfolio.wixsite.com/khushbudoshi/darzah',
     imageBg: '#fff3ed',
     video: 'https://res.cloudinary.com/dnv5rxyhk/video/upload/q_auto/v1778790557/DARZAH-HERO-VIDEO_zgxnnq.mp4',
   },
